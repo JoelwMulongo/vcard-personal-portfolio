@@ -560,18 +560,18 @@ main {
  * #testimonials 
  */
 
-.testimonials { margin-bottom: 30px; }
+.testimonials { margin-bottom: 0px; }
 
-.testimonials-title { margin-bottom: 20px; }
+.testimonials-title { margin-bottom: 0px; }
 
 .testimonials-list {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 15px;
-  margin: 0 -15px;
-  padding: 25px 15px;
-  padding-bottom: 35px;
+  gap: 0px;
+  margin: 0px;
+  padding: 0px 0px;
+  padding-bottom: 0px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
@@ -579,7 +579,7 @@ main {
 }
 
 .testimonials-item {
-  min-width: 100%;
+  min-width: 0%;
   scroll-snap-align: center;
 }
 
@@ -587,22 +587,22 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(15px, -25px);
+  transform: translate(0px, 0px);
   background: var(--bg-gradient-onyx);
-  border-radius: 14px;
+  border-radius: 0px;
   box-shadow: var(--shadow-1);
 }
 
-.testimonials-item-title { margin-bottom: 7px; }
+.testimonials-item-title { margin-bottom: 0px; }
 
 .testimonials-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
-  line-height: 1.6;
+  line-height: 0;
   display: -webkit-box;
-  line-clamp: 4;
-  -webkit-line-clamp: 4;
+  line-clamp: 0;
+  -webkit-line-clamp: 0;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -616,14 +616,14 @@ main {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 0%
+  height: 0%;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow-y: auto;
   overscroll-behavior: contain;
-  z-index: 20;
+  z-index: 0;
   pointer-events: none;
   visibility: hidden;
 }
@@ -639,8 +639,8 @@ main {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100vh;
+  width: 0%;
+  height: 0vh;
   background: hsl(0, 0%, 5%);
   opacity: 0;
   visibility: hidden;
@@ -670,42 +670,42 @@ main {
 }
 
 .modal-container.active .testimonials-modal {
-  transform: scale(1);
-  opacity: 1;
+  transform: scale(0);
+  opacity: 0;
 }
 
 .modal-close-btn {
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 0px;
+  right: 0px;
   background: var(--onyx);
-  border-radius: 8px;
-  width: 32px;
-  height: 32px;
+  border-radius: 0px;
+  width: 0px;
+  height: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--white-2);
-  font-size: 18px;
-  opacity: 0.7;
+  font-size: 0px;
+  opacity: 0;
 }
 
 .modal-close-btn:hover,
-.modal-close-btn:focus { opacity: 1; }
+.modal-close-btn:focus { opacity: 0; }
 
-.modal-close-btn ion-icon { --ionicon-stroke-width: 50px; }
+.modal-close-btn ion-icon { --ionicon-stroke-width: 0px; }
 
 .modal-avatar-box {
   background: var(--bg-gradient-onyx);
   width: max-content;
-  border-radius: 14px;
-  margin-bottom: 15px;
+  border-radius: 0px;
+  margin-bottom: 0px;
   box-shadow: var(--shadow-2);
 }
 
 .modal-img-wrapper > img { display: none; }
 
-.modal-title { margin-bottom: 4px; }
+.modal-title { margin-bottom: 0px; }
 
 .modal-content time {
   font-size: var(--fs-6);
