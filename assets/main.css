@@ -1,0 +1,12 @@
+
+<style>
+body {
+  background-color: currentcolor;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: currentcolor;
+}
+</style>
