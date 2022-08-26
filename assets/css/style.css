@@ -442,6 +442,10 @@ main {
 .social-item .social-link:hover { color: var(--light-gray); }
 
 
+.light-mode {
+  background-color: white;
+  color: currentcolor;
+}
 
 
 
@@ -502,6 +506,10 @@ main {
 .about-text p { margin-bottom: 15px; }
 
 
+.light-mode {
+  background-color: white;
+  color: currentcolor;
+}
 
 /**
  * #service 
@@ -548,6 +556,10 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
+}
+.light-mode {
+  background-color: white;
+  color: currentcolor;
 }
 
 
@@ -823,6 +835,10 @@ main {
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
+.light-mode {
+  background-color: white;
+  color: currentcolor;
+}
 
 
 /**
@@ -1021,6 +1037,10 @@ main {
   font-weight: var(--fw-300);
 }
 
+.light-mode {
+  background-color: white;
+  color: currentcolor;
+}
 
 
 
@@ -1109,6 +1129,10 @@ main {
   line-height: 1.6;
 }
 
+.light-mode {
+  background-color: white;
+  color: currentcolor;
+}
 
 
 
@@ -1216,6 +1240,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
 
+.light-mode {
+  background-color: white;
+  color: currentcolor;
+}
 
 
 
