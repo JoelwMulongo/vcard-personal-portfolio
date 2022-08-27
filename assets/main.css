@@ -23,8 +23,8 @@
 }
 
 .info-content .title {
- 
-  animation: typing 2s, blink .5s step-end infinite alternate;
+ width: 30ch;
+  animation: typing 2s steps(30), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 0px solid;
@@ -39,7 +39,8 @@
 }
     
 .about-text {
-  animation: typing 2s, blink .5s step-end infinite alternate;
+Width: 200ch;
+  animation: typing 2s steps(200), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 0px solid;
