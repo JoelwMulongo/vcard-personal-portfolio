@@ -40,12 +40,12 @@
 body {
  
   background-color: currentcolor;
-  color: grey;
+  color: #dee7ed;
   
 }
 
 .light-mode {
-  background-color: grey;
+  background-color: #dee7ed;
   color: currentcolor;
 }
 
