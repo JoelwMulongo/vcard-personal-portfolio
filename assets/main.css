@@ -1,10 +1,10 @@
 
 body {
   background-color: currentcolor;
-  color: ;
+  color: green;
 }
 
 .light-mode {
-  background-color: white;
+  background-color: green;
   color: currentcolor;
 }
