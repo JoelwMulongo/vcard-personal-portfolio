@@ -1,12 +1,7 @@
 
 
-.light-mode {
-  background-color: green;
-  color: currentcolor;
-}
 
-
-.info-content {
+.info-content .name {
   width: 22ch;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
