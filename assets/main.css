@@ -1,9 +1,5 @@
 
-body {
-  background-color: currentcolor;
-  color: green;
-}
-
+body 
 .light-mode {
   background-color: green;
   color: currentcolor;
